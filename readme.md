@@ -2,13 +2,11 @@
 
 ## `Introduction`
 
-This document is a recipe for how to broadcast on `Livepeer`.
+This document is a recipe for how to live stream using `Livepeer`.
 
-It will explain what equipment you will need to `start`.
+It explains what equipment you will need to `start`.
 
-It will also provide a `very simple` step-by-step method to `install` and `configure` the required _software_.
-
-It may seem long, but it works. `I hope`. If it doesn't, come and find [me on gitter] (http://gitter.im/chrishobcroft)
+It provides a `very simple` step-by-step method to `install` and `configure` the required _software_.
 
 ## `Equipment`
 
@@ -87,7 +85,7 @@ LPMS Server listening on :1935
 
 - get test Ethereum
 
-- ask the livepeer team and we can send you test ETH
+- ask the livepeer team (Raffi is your go-to) either at the sponsor table, or via discord send @RSAP your rinkeby ETH address and we can send you test ETH
 
 - get test LPT
 
@@ -102,7 +100,7 @@ LPMS Server listening on :1935
     - Also, you can use [Etherscan's Rinkeby Explorer](https://rinkeby.etherscan.io) to view the details of your _ETH Account_.
     - There should now be 2 transactions
 
-    - If you do not have any LPT in your account, contact the [Livepeer Team](http://gitter.im/livepeer/Lobby) and someone there will be happy to help you get some test `LPT`.
+    - If you do not have any LPT in your account, contact the Livepeer Team at the sponsor table and someone there will be happy to help you get some test `LPT`.
 
 - deposit ETH into your broadcaster account
 
@@ -121,7 +119,7 @@ LPMS Server listening on :1935
 
 ### Download and install [OBS](http://obsproject.com)
 
-- follow the `excellent` instructions at [OBS Project Home Page](http://obsproject.com)
+- follow the `excellent` instructions at [OBS Project Home Page](http://obsproject.com) OR if you are having trouble use a USB stick from our sponsor table to download the software 
 
 ### Configure [OBS](http://obsproject.com) to broadcast on Livepeer
 
@@ -139,7 +137,9 @@ LPMS Server listening on :1935
 
 - Click "OK" to close the "Settings" window
 
-- Under "Sources" click the + and select **Text (Freetype 2) 2**
+#### ways to customize your stream on OBS
+
+- Add text over image: Under "Sources" box in the bottom left click the + and select **Text (Freetype 2) 2**
 
 - Click _**OK**_
 
@@ -147,11 +147,13 @@ LPMS Server listening on :1935
 
 - Click _**OK**_
 
+- Add a logo over video: Under sources box you can select media source 
+
 ### Start broadcasting and monitoring
 
 - Ensure livepeer is running (see instructions above)
 
-- Click _Start Streaming_ in [OBS](http://obsproject.com).
+- Click _Start Streaming_ in [OBS](http://obsproject.com) on the bottom right
 
 ```
 You are now streaming on Livepeer
@@ -176,4 +178,10 @@ We could also have used the [livepeer.js video player](https://github.com/livepe
 
 Another option is to view your stream using the [prebuilt hosted player](media.livepeer.org/player.html)
 
-That's it!
+### Receive the prize 
+
+- Tweet a screen shot of your livestream and tag @livepeerorg 
+
+- Post a link to your tweet along with your Web 3 ETH address (metamask, toshi, etc) on our [Discord channel #EthBerlin](https://discord.gg/DCm68PT)
+
+- Receive 25 LPT 
